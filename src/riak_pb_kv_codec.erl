@@ -58,7 +58,7 @@
 -ifdef(namespaced_types).
 -type metadata() :: dict:dict(binary(), binary()).
 -else.
--type metadata() :: dict().
+-type metadata() :: dict:dict().
 -endif.
 
 -type contents() :: [{metadata(), value()}].
